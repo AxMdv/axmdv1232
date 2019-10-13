@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<meta charset="UTF-8">
+	<style>
+	.First {
+	color: green;
+	background-color: black;}
+	.Second {
+	color: purple;
+	background-color: yellow;}
+	.Third {
+	color: blue;
+	background-color: grey;}
+	.watched:hover {
+	background-color: red;
+	color: blue;}
+	.unordered:hover {
+	font-size:60px;
+	color:blue;}
+	.ordered:hover {
+	font-size:30px;
+	color: red;}
+	</style>
+</head>
+<body>
+	<h1>Var #4 Medvetsky A.A. IU4-11Б</h1>
+	<div>
+		<h2>Task 1</h2>
+		<h3 class="First">Heading 1 level</h3>
+		<h4 class="Second">Heading 2 level</h4>
+		<h5 class="Third">Heading 3 level</h5>		
+	</div>
+	<div>
+		<h2>Task 2</h2>
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td>Second Name</td>
+			</tr>
+			<tr>
+				<td class="watched">Alexander</td>
+				<td class="watched">Medvetsky</td>
+			</tr>
+			<tr>
+				<td class="watched">Egor</td>
+				<td class="watched">Losev</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<h2>Task 3</h2>
+		<ul>
+			<li><p class="unordered">1 course subjects</p>
+			<ol>
+			<li class="ordered":>Math</li>
+			<li class="ordered">Physics</li>
+			</ol>
+			</li>
+		</ul>		
+	</div>
+</body>
+</html>
